@@ -1,0 +1,72 @@
+table.gameboard {
+	border-width: 2px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+	border-collapse: collapse;
+	margin-bottom: 6px;
+
+}
+table.gameboard td {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+	-moz-border-radius: ;
+}
+
+table.ad1 {
+	margin-bottom: 10px;
+}
+
+table.box {
+	border-width: 2px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+td input {
+	margin: 0px;
+	padding: 0px;
+	width: 30px;
+	height: 100%;
+	font-size: 18px;
+	text-align: center;
+}
+
+table.box td {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: black;
+
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	-moz-border-radius: ;
+}
+
+table.numbertable {
+	border-width: 0px;
+	border-spacing: ;
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	background-color: #cecece;
+	margin-bottom: 6px;
+}
+table.numbertable td {
+	border-width: 1px;
+	padding: 0px;
+	border-style: inset;
+	border-color: black;
+	text-align: center;
+
+	width: 27px;
+	height: 27px;
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+<table class="gameboard">
+  <tr ng-repeat="i in [0, 27, 54]">
+    <td ng-repeat="j in [0, 3, 6]">
+      <table class="box">
+        <tr ng-repeat="x in [0,9,18]">
+          <td ng-repeat="y in [0,1,2]">
+            <cell index="{{i+j+x+y}}"></cell>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

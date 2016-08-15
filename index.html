@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guy's Suduko solver</title>
+    <script type="text/javascript"
+  		src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.1/angular.js"></script>
+    <script type="text/javascript" src="sudoku.js"></script>
+    <style type="text/css">
+      @import url(sudoku.css);
+    </style>
+  </head>
+  <body ng-app="Sudoku">
+    <h3>Sudoku helper</h3>
+    <board></board>
+    <button ng-controller="UndoController" ng-click="undo()">Undo</button>
+    <input type="file" upload/>
+    <br><br>
+    <lines></lines>
+    <moves></moves>
+  </body>
+</html>
