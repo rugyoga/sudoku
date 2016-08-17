@@ -63,5 +63,7 @@ nine numbers (seperating by any non-digit characters)
 with 0 being used to denote empty squares.
 
 It's uses http-server to serve up the html.
+
 To get prepare the project, do: ```npm install```.
+
 To run it, do: ```npm start```.
