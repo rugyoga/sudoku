@@ -76,4 +76,4 @@ To run, do:
 npm start
 ```
 
-then surf to: `localhost:8080`.
+then surf to: `localhost:8080`
