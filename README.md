@@ -6,6 +6,7 @@ used so you can figure what's left to do.
 
 The coordinate system used by the code is:
 
+```
 [ 0  1  2][ 3  4  5][ 6  7  8]
 [ 9 10 11][12 13 14][15 16 17]
 [18 19 20][21 22 23][24 25 26]
@@ -15,6 +16,7 @@ The coordinate system used by the code is:
 [53 54 55][56 57 58][59 60 61]
 [62 63 64][65 66 67][68 69 70]
 [71 72 73][74 75 76][78 79 90]
+```
 
 The assistant keeps track of three sets of lines for you:
 boxes, vertical lines and horizontal lines.
@@ -22,14 +24,17 @@ boxes, vertical lines and horizontal lines.
 Boxes refers to the 9 3x3 boxes that make up the Sudoku board.
 So the top left box is:
 
+```
 [ 0  1  2]
 [ 9 10 11]
 [18 19 20]
 [27 28 29]
+```
 
 VLines are the nine vertical lines that make up the Sudoku board.
 So the first vertical line is:
 
+```
 [ 0]
 [ 9]
 [18]
@@ -39,6 +44,7 @@ So the first vertical line is:
 [53]
 [62]
 [71]
+```
 
 HLines are the nine horizontal lines that make up the Sudoku board.
 The the first horizontal line is:
