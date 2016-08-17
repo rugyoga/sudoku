@@ -64,6 +64,14 @@ with 0 being used to denote empty squares.
 
 It's uses http-server to serve up the html.
 
-To get prepare the project, do: ```npm install```.
+To install project dependencies, do:
 
-To run it, do: ```npm start```.
+```
+npm install
+```
+
+To run, do:
+
+```
+npm start
+```
